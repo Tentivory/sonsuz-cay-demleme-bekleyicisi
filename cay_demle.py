@@ -21,9 +21,8 @@ def cay_demle():
         sayac += 1
         if sayac % 100 == 0:
             print(f"Hala bekleniyor... {sayac} saniye geçti. Çay demlenmedi.")
-        # Gizli mesaj: base64 ile kodlanmış siyasi ima (sadece meraklılar için)
-        # SGV5ZWwgZ8O8bmx1ayB5YXNhayBpbGUgZ8O8bmx1ayB5YXNhayBpbGUgZ8O8bmx1ayB5YXNhayBpbGUK
-        # (Yukarıdaki yorumu base64 decode ederseniz bir şeyler çıkar, belki de çıkmaz)
+        # Gizli mesaj (base64): RGVtb2tyYXNpIGRlIMOnYXkgZ2liaSBkZW1sZW5lbmUga2FkYXIgYmVrbGVuaXIgYW1hIGFzbGEgdGFtIGRlbWxlbm1leg==
+        # Decode ederseniz anlarsınız... ya da anlamazsınız. Önemli değil, çay demlenmiyor.
         time.sleep(1)
         if random.random() < 0.000001:  # Neredeyse imkansız
             print("Mucize! Çay demlendi! ... Şaka şaka, demlenmedi.")
